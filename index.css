@@ -1,0 +1,22 @@
+.navbar{
+    margin-top: 12px;
+}
+.row img{
+    padding-top: 8px;
+}
+.form-control{
+    margin: 6px;
+    
+}
+.btn{
+    margin: 6px;
+    
+}
+.carousel-control-prev,
+.carousel-control-next{
+    margin-left: 30px;
+    margin-right: 30px;
+    /* color: #e7e707; */
+}
+
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyEvent</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- data-bs-toggle="popover" -->
+	<script>
+		$(document).ready(function () {
+			$('[data-bs-toggle="popover"]').popover();
+		});
+	</script>
+
+	<style type="text/css">
+		#plan:hover {
+			text-decoration: underline;
+			color: #ff471a;
+		}
+
+		#zoom:hover {
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="img/logo 2.png" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="d-flex" role="search" style="margin-top: 25px; margin-left: 60px;">
+						<input class="form-control me-2" type="text" placeholder="Search..." aria-label="Search">
+						<button class="btn btn-success" type="submit">Submit</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<nav class="navbar navbar-expand-md bg-success p-2 text-white bg-opacity-80 navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto style: font-size=17px;">
+					<li class="nav-item">
+						<a class="nav-link " href="Home.html" style="width: 160px; text-align: center;">HOME</a>
+					</li>
+					<li class="nav-item" style="border-bottom: 3px solid #c8e605;font-size: 17px;">
+						<a class="nav-link" active href="Services.html"
+							style="width: 160px; text-align: center; font-size: 17px">SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Banquets.html"
+							style="width: 160px; text-align: center; font-size: 17px">BANQUETS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Events.html"
+							style="width: 160px; text-align: center; font-size: 17px">EVENTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Blog.html"
+							style="width: 160px; text-align: center; font-size: 17px">BLOG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contact.html"
+							style="width: 160px; text-align: center; font-size: 17px">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+
+		<div class="container">
+			<div class="cont">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<img src="img/dining-lunch-plate-white-meal.jpg" height="320" width="720"
+							class="img-thumbnail img-fluid mx-auto d-block"><br>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 23px; line-height: 28px; text-align: center;"><b></b> <b><i>“Savor the
+									Moments with Our Delightful Dishes”</i></b> – Anonymous <br>
+						</p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 20px; line-height: 28px; text-align: justify;">
+							<b>-</b> A birthday party, wedding ceremony, corporate event or live concert – the only
+							element that remains the same across all events is FOOD!<br><br>
+
+							<b>-</b> With MyEvents – the best catering service, you don’t have to worry about the food
+							at your event. Our expert team of chefs cook delicious food that your guests would not just
+							love, but won’t be able to stop talking about. Our sumptuous food menu caters to multiple
+							cuisines, tastes, ethnicities and cultures. Be it a large, mid-sized or small event – we are
+							your go-to catering service.
+						</p><br>
+					</div>
+				</div>
+			</div>
+		</div><br>
+
+		<div class="container">
+			<div class="cont2" id="ServicesSection1">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;">- Pick a Plan for Catering Services -</h1>
+					</div>
+				</div><br>
+				<!-- direct link to service and catering services -->
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="Menu"
+							style="border:3px solid  #77b300; border-radius: 20px; padding: 15px 5px 5px 5px;">
+							<a href="CateringPlans.html">
+								<h3 id="plan" style="text-align: center; color:  black;">Our Menu</h3>
+							</a>
+							<a href="CateringPlans.html"><img id="zoom" src="img/dinning5.jpg"
+									class="img-thumbnail img-fluid mx-auto d-block" height="250" width="450"
+									style="border-radius: 20px;"></a>
+
+							<p style="text-align: justify; font-size: 18px; padding: 8px 10px 5px 10px;"><i>From Mexican
+									to Chinese, North Indian to South Indian, our team of expert party caterers are
+									equipped to adopt any cuisine based on your tastes. We have special menus designed
+									to suit every type of occasion <a style="font-size: 19px;" href="CateringPlans.html"><b><u>Read More >></u></b></a></i></p>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class=""
+							style="border:3px solid  #77b300; border-radius: 20px; padding: 15px 5px 3px 5px;">
+							<a href="CateringPlans.html">
+								<h3 id="plan" style="text-align: center; color: black;"> Our Services</h3>
+							</a>
+							<a href="CateringPlans.html"><img id="zoom" src="img/services.jpg"
+									class="img-thumbnail img-fluid mx-auto d-block" height="250" width="450"
+									style="border-radius: 20px;"></a>
+							<br>
+							<p style="text-align: justify; font-size: 18px; padding: 8px 10px 2px 10px;"><i>Let us take the stress of getting everything done with Perfection. Whatever you have dreamt about your ceremony to this date, is going to be a reality and that’s our promise. <a style="font-size: 19px;"href="CateringPlans.html"><b><u> Read More >></u></b></a></i></p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div> <br>	
+
+		<div class="container">
+			<div>
+			<div id="WeightLossSection2">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;">- List of Top Menu -</h1>
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; ">Top Starters Menu </h3>
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Raj Kachori</li>
+								<li>Cocktail Samosa</li>
+								<li>Paneer Finger</li>
+								<li>Corn Kebab</li>
+								<li>Cheese Balls</li>
+								<li>Veg Cutlet</li>
+								<li>Veg. Manchurian Dry</li>
+								<li>Chili Paneer</li>
+							</ol>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px; " class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; "> The Main Course Veg</h3>
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Panner Tikka Masala</li>
+								<li>Tava Fry</li>
+								<li>Panner Butter Masala</li>
+								<li>Aloo Baigan</li>
+								<li>Mix Vegetable</li>
+								<li>Palak Panner</li>
+								<li>Malai Kofta Curry</li>
+								<li>Shahi Rajma Masala</li>
+							</ol>
+						</div>
+					</div>
+
+					
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; ">The Dessert’s Section </h3>
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Gulab Jamun</li>
+								<li>Keseri Kheer</li>
+								<li>Kulfi Rollar</li>
+								<li>Ice Cream</li>
+								<li>Moong Dal Halwa</li>
+								<li>Pineapple Halwa</li>
+								<li>Jalebi Rabri</li>
+								<li>Gajar Ka Halwa</li>
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>	
+				
+	</section><br>
+
+	<footer class="bg-success p-2 text-white">
+		<div class="container-fluid">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4 style="text-align: center; padding-top: 10px;">@ 2021 Event Management . All Copy Rights Reserved.
+				</h4>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
